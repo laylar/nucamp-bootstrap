@@ -9,6 +9,7 @@ $(function() {
             $(".carousel").carousel("cycle");
             $("#carouselButton").children("i").removeClass("fa-play");
             $("#carouselButton").children("i").addClass("fa-pause"); 
+        
         }
     });
 });
